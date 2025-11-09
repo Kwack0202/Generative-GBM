@@ -67,7 +67,7 @@ python run.py \
 ![Img sample](./asset/Fig5.png)
 
 ## 📈 Backtesting 📉
-![Img sample](./asset/Fig7.png)
+<img src="./asset/Fig7.png" width="50%">
 
 #### Treemap
 ![Img sample](./asset/Fig8.png)

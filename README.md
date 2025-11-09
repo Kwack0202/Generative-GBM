@@ -9,12 +9,10 @@ This study proposes a scenario-based trading system that integrates generative m
   <img src="./asset/Fig2.png" width="100%">
 </p>
 
-### Financial Engineering Model - GBM
+### Geometric Brownian Motion
 <p align="center">
   <img src="./asset/Fig1.png" width="80%">
 </p>
-
-- **GBM** : Geometric Brownian Motion
 
 $$
 S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}
@@ -22,7 +20,7 @@ $$
 
 - **Idea** : GBM models the future path of stock prices as a stochastic process, systematically representing market uncertainty. Each scenario represents a possible path of asset returns, and the entire set provides insights into the overall direction and variation of stock price uncertainty.
 
-### Generative Model - Latent Diffusion Model
+### Latent Diffusion Model
 <p align="center">
   <img src="./asset/Fig3.png" width="100%">
 </p>
@@ -91,7 +89,7 @@ python run.py \
   <img src="./asset/Fig8.png" width="100%">
 </p>
 
-### trading plot
+### Trading plot
 <p align="center">
   <img src="./asset/Fig9.png" width="100%">
 </p>

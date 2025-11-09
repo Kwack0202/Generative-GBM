@@ -1,6 +1,9 @@
 # Generative-GBM
 Development of a Trading System Integrating Financial Engineering Models and Artificial Intelligence
 
+## Abstract
+This study proposes a scenario-based trading system that integrates generative models the GBM framework. The core idea is to use the GBM framework to model the uncertainty of stock price variations and to optimize the wiener process by employing a Latent Diffusion Model to depart from the log-normal distribution assumption of the standard GBM. This approach demonstrates that by introducing generative models, the terms of the wiener process can be reparameterized by learning the unique distribution and time-varying structure of market data. This provides realistic virtual price paths and extends the dataset for stock prediction to scenario sets, contributing to the optimization of investment strategies. The generated scenarios are selected through risk assessment and learn the patterns of stock variations using a Transformer encoder. The empirical analysis conducted on 150 stocks representing 10 sectors of the S&P 500 index showed that LDM outperformed existing generative models in terms of original data mimicking, with a win rate of 0.567 and a cumulative return of 38.434% in backtesting results. Additionally, the proposed trading system demonstrated consistent adaptability across various risk profiles based on growth and volatility, as well as different market conditions such as bear and bull markets. Consequently, the proposed trading system has proven its potential to support investors in achieving profitable returns by leveraging scenarios that combine realism and diversity.
+
 ## Concept of proposed trading system
 <p align="center">
   <img src="./asset/Fig2.png" width="100%">
@@ -51,15 +54,15 @@ $$
 │     └──GemerativeAI_gbm
 │     │   ├──train_Diffusion.sh
 │     │   ├──train_GAN.sh
-│     │   └──   ...
+│     │   └──   :
 │     │
 │     └──Methematicl_gbm
-│         └──   ...
+│         └──   :
 │     
 ├── 03_stock_prediction/
 │     ├──stock_prediction.sh
 │     ├──backtesting.sh
-│     └──   ...
+│     └──   :
 ```
 
 #### Example command (Git Bash)

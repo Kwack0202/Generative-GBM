@@ -2,13 +2,19 @@
 Development of a Trading System Integrating Financial Engineering Models and Artificial Intelligence
 
 ## Concept of proposed trading system
-![Concept Diagram](./asset/Fig2.png)
+<p align="center">
+  <img src="./asset/Fig2.png" width="100%">
+</p>
 
 ## Financial Engineering Model - GBM
-![Diagram](./asset/Fig1.png)
+<p align="center">
+  <img src="./asset/Fig1.png" width="100%">
+</p>
 
 ## Generative Model - Latent Diffusion Model
-![Diagram](./asset/Fig3.png)
+<p align="center">
+  <img src="./asset/Fig3.png" width="100%">
+</p>
 
 ## 🛠 System
 - **CPU** `AMD Ryzen 9 5950X 16-Core Processor`
@@ -64,16 +70,24 @@ python run.py \
 ```
 
 ## 📊 Generative-GBM Scenario result 
-![Img sample](./asset/Fig5.png)
+<p align="center">
+  <img src="./asset/Fig5.png" width="100%">
+</p>
 
 ## 📈 Backtesting 📉
-<img src="./asset/Fig7.png" width="50%">
+<img src="./asset/Fig7.png" width="70%">
 
 #### Treemap
-![Img sample](./asset/Fig8.png)
+<p align="center">
+  <img src="./asset/Fig8.png" width="100%">
+</p>
 
 #### trading plot
-![Img sample](./asset/Fig9.png)
+<p align="center">
+  <img src="./asset/Fig9.png" width="100%">
+</p>
 
 #### XAI (Scenario Activation Rate)
-![Img sample](./asset/Fig10.png)
+<p align="center">
+  <img src="./asset/Fig10.png" width="100%">
+</p>

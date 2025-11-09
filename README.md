@@ -75,7 +75,9 @@ python run.py \
 </p>
 
 ## 📈 Backtesting 📉
-<img src="./asset/Fig7.png" width="70%">
+<p align="center">
+  <img src="./asset/Fig5.png" width="70%">
+</p>
 
 #### Treemap
 <p align="center">

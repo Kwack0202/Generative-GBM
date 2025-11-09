@@ -14,7 +14,7 @@ This study proposes a scenario-based trading system that integrates generative m
   <img src="./asset/Fig1.png" width="80%">
 </p>
 
-<div align="center" style="font-size: 180%;">
+<div align="center" style="font-size: 250%;">
 
 $$
 \Large S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}

@@ -14,9 +14,13 @@ This study proposes a scenario-based trading system that integrates generative m
   <img src="./asset/Fig1.png" width="80%">
 </p>
 
+<div align="center" style="font-size: 180%;">
+
 $$
-S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}
+\Large S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}
 $$
+
+</div>
 
 - **Idea** : GBM models the future path of stock prices as a stochastic process, systematically representing market uncertainty. Each scenario represents a possible path of asset returns, and the entire set provides insights into the overall direction and variation of stock price uncertainty.
 

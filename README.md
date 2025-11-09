@@ -8,7 +8,7 @@ Development of a Trading System Integrating Financial Engineering Models and Art
 
 ### Financial Engineering Model - GBM
 <p align="center">
-  <img src="./asset/Fig1.png" width="60%">
+  <img src="./asset/Fig1.png" width="80%">
 </p>
 
 - **GBM** : Geometric Brownian Motion
@@ -17,9 +17,11 @@ $$
 S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}
 $$
 
+- **Idea** : GBM models the future path of stock prices as a stochastic process, systematically representing market uncertainty. Each scenario represents a possible path of asset returns, and the entire set provides insights into the overall direction and variation of stock price uncertainty.
+
 ### Generative Model - Latent Diffusion Model
 <p align="center">
-  <img src="./asset/Fig3.png" width="60%">
+  <img src="./asset/Fig3.png" width="100%">
 </p>
 
 ## 🛠 System
@@ -39,7 +41,7 @@ $$
 - To run the system, the parser arguments must be passed using the `run.py` and `sh files`
 - The `sh file` is divided into subfolders and multiple steps within the ./scripts/ folder.
 
-#### The scripts folder structure is as follows:
+### The scripts folder structure is as follows:
 ```
 ./scripts/
 ├── 01_origin_data/
@@ -81,21 +83,17 @@ python run.py \
 </p>
 
 ## 📈 Backtesting 📉
-<p align="center">
-  <img src="./asset/Fig5.png" width="70%">
-</p>
-
-#### Treemap
+### Treemap
 <p align="center">
   <img src="./asset/Fig8.png" width="100%">
 </p>
 
-#### trading plot
+### trading plot
 <p align="center">
   <img src="./asset/Fig9.png" width="100%">
 </p>
 
-#### XAI (Scenario Activation Rate)
+### XAI (Scenario Activation Rate)
 <p align="center">
   <img src="./asset/Fig10.png" width="100%">
 </p>

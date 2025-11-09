@@ -8,17 +8,18 @@ Development of a Trading System Integrating Financial Engineering Models and Art
 
 ### Financial Engineering Model - GBM
 <p align="center">
-  <img src="./asset/Fig1.png" width="100%">
+  <img src="./asset/Fig1.png" width="60%">
 </p>
 
 - **GBM** : Geometric Brownian Motion
+
 $$
 S_t = S_0 e^{(\mu - \frac{\sigma^2}{2})t + \sigma W_t}
 $$
 
 ### Generative Model - Latent Diffusion Model
 <p align="center">
-  <img src="./asset/Fig3.png" width="100%">
+  <img src="./asset/Fig3.png" width="60%">
 </p>
 
 ## 🛠 System
